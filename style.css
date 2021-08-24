@@ -1,0 +1,44 @@
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-header {
+      text-align: center;
+      padding: 32px;
+}
+
+.list-header > h2 {
+      font-size: 24px;
+}
+
+.list-item {
+      padding: 32px;
+      border: 2px solid #dcdcdc;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 3px;
+}
+
+.item-name {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 24px;
+}
+
+.item-description {
+      max-width: 200px;
+}
+
+.item-stars {
+      cursor: pointer;
+}
+
+.item-telephone > h3 {
+      font-size:  24px;
+      margin: 0px;
+
+}
+
+.item-stars:hover {
+     color: goldenrod; 
+}

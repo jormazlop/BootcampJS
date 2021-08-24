@@ -1,44 +1,84 @@
 body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, Helvetica, sans-serif
 }
 
-.list-header {
+.hotel-header > h2 {
       text-align: center;
-      padding: 32px;
+      padding: 20px;
 }
 
-.list-header > h2 {
-      font-size: 24px;
+.hotel-body {
+      margin: auto;
+      max-width: 90%;
 }
 
-.list-item {
-      padding: 32px;
-      border: 2px solid #dcdcdc;
+.hotel-item {
+      padding: 16px;
+      border-radius: 3px;
+      border: 1px solid #9c9c9c;
       display: flex;
       justify-content: space-between;
-      border-radius: 3px;
 }
 
-.item-name {
+.hotel-name {
+      max-width: 300px;
+}
+
+.hotel-name:hover {
+      cursor: pointer;
+      position: relative;
+      left: 2px;
+      color: darkcyan;
+}
+
+.hotel-name > span {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 24px;
 }
 
-.item-description {
-      max-width: 200px;
+.hotel-description {
+      max-width: 300px;
 }
 
-.item-stars {
+.hotel-description:hover {
+      cursor: pointer;
+      position: relative;
+      left: 2px;
+      color: darkcyan;
+}
+
+.hotel-description > span {
+      font-size: 20px;
+      font-weight: 300;
+}
+
+.hotel-stars {
       cursor: pointer;
 }
 
-.item-telephone > h3 {
+.hotel-telephone {
+      max-width: 250px;
+}
+
+.hotel-telephone > h3 {
       font-size:  24px;
       margin: 0px;
 
 }
 
-.item-stars:hover {
+.hotel-telephone h3:hover {
+      position: relative;
+      left: 2px;
+      color: darkcyan;
+      cursor: pointer;
+}
+
+.hotel-stars {
+      max-width: 100px;
+}
+
+.hotel-stars:hover {
      color: goldenrod; 
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Datos de usuario</title>
+      <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+      <div class="data-container">
+
+            <div class="data-image">
+                  <img id="avatar" src="./img/not_found.svg" alt="Avatar Image">
+            </div>
+
+            <div class="data-info">
+                  <label for="name">Name</label>
+                  <input type="text" placeholder="Insert name..." id="name">
+            </div>
+
+            <div class="data-info">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" placeholder="Insert last name..." id="lastName">
+            </div>
+
+
+            <div class="data-button">
+                  <button onclick="updateCampos()">Update</button>
+            </div>
+
+            <div class="data-button">
+                  <button onclick="mostrarName()">Console</button>
+            </div>
+      </div>
+
+      <!-- Scripts -->
+      <script src="./js/update.js"></script>
+      <script src="./js/console.js"></script>
+</body>
+</html>

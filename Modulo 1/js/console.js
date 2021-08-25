@@ -1,3 +1,4 @@
+// Script button 'Console'
 function mostrarName() {
 
       var name = document.getElementById('name').value;

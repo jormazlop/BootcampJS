@@ -7,4 +7,5 @@ function mostrarName() {
       } else {
             console.log('Name : ' , document.getElementById('name').value);
       }
+      
 }

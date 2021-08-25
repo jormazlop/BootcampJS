@@ -1,44 +1,44 @@
 
 body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
+   font-family: Arial, Helvetica, sans-serif;
+}
 
 .data-image {
-      text-align: center;
-      padding: 32px;
+   text-align: center;
+   padding: 32px;
 }
 
 .data-image > img {
-      width: 100px;
-      height: 100px;
+   width: 100px;
+   height: 100px;
 }
 
 .data-info {
-      margin: auto;
-      width: 50%;
+   margin: auto;
+   width: 50%;
 }
 
 .data-info > label {
-      font-weight: bold;
+   font-weight: bold;
 }
 
 .data-info > input {
-      width: 100%;
-      padding: 12px;
-      margin: 8px 0 32px 0;
-      border: 1px solid #ccc;
+   width: 100%;
+   padding: 12px;
+   margin: 8px 0 32px 0;
+   border: 1px solid #ccc;
 }
 
 .data-button {
-      margin: auto;
-      width: 50%;
-      margin-bottom: 20px;
+   margin: auto;
+   width: 50%;
+   margin-bottom: 20px;
 }
 
 .data-button > button {
-      background-color: #c7b93e;
-      padding: 12px;
-      border: none;
-      color: white;
-      font-size: 16px;
+   background-color: #c7b93e;
+   padding: 12px;
+   border: none;
+   color: white;
+   font-size: 16px;
 }

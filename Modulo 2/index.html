@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Reseña Hotel</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <h1 class="hotel-title">Reseña hotel</h1>
+   <div class="hotel">
+      <div class="hotel-container">
+         <div class="hotel-description">
+            <div class="hotel-name">
+               <span id="hotel-name"></span>
+            </div>
+            <div class="hotel-location">
+               <span id="hotel-location"></span>
+            </div>
+         </div>
+         <div class="hotel-img">
+            <img id="hotel-img"
+                 data-toggle="tooltip" 
+                 title="Hotel image"
+                 alt="Image's not found">
+         </div>
+      </div>
+
+      <div class="puntuacion-container">
+         <div class="puntuacion-stars">
+            <span>Puntuacion</span> 
+            <span id="stars" class="stars"></span>
+         </div>
+         <div class="puntuacion-reseña">
+            <span>Reseña anonima </span> <input id="reseña" type="checkbox">
+         </div>
+         
+      </div>
+
+   </div>
+   
+   <script src="./js/app.js"></script>
+</body>
+</html>

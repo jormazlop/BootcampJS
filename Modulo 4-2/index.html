@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Modulo 4-2 : extra</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+   <div class="calculadora-container">
+
+      <h1>Calculadora secuencial</h1>
+
+      <div class="input-container">
+         <input id="varA" type="number">
+         <button id="sum">+</button>
+         <button id="substraction">-</button>
+         <button id="division">/</button>
+         <button id="multiplication">*</button>
+         <button id="resultado">=</button>
+      </div>
+
+      <h1 id="result"></h1>
+
+   </div>   
+
+   <div class="hotel-container">
+
+      <h1>Reservas hotel</h1>
+
+      <span> Tipo de reserva : </span>
+      <select name="tipo" id="tipo">
+         <option value="standard">Standard</option>
+         <option value="junior">Junior Suite</option>
+         <option value="suite">Suite</option>
+      </select>
+      <br>
+      <span> Uso de Spa</span><input id="spa" type="checkbox">
+      <br>
+      <span> Tipo de ocupacion : </span>
+      <select name="ocupacion" id="ocupacion">
+         <option value="individual">Individual</option>
+         <option value="doble">Doble</option>
+         <option value="triple">Triple</option>
+      </select>
+      <br>
+      <span> Numero de noches </span> <input id="noches" type="number">
+      <br>
+      <span> Noches de parking </span> <input id="parking" type="number">
+      <br>
+      <button id="calcular-reserva">Calcular</button>
+
+      <h1 id="precio"></h1>
+
+   </div>
+
+   <script src="./js/calculadoraSecuencial.js"></script> 
+   <script src="./js/reservasHotel.js"></script>
+</body>
+</html>

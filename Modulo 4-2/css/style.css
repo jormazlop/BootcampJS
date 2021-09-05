@@ -1,0 +1,52 @@
+.calculadora-container input {
+   border: 1px solid #9c9c9c;
+   border-radius: 3px;
+   padding: 15px 32px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px; 
+}
+
+.calculadora-container button {
+   background-color: rgb(22, 172, 231);
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+
+.calculadora-container button:hover {
+   border: 2px solid grey;
+   border-radius: 3px;
+}
+
+.hotel-container select {
+   border: 1px solid #9c9c9c;
+   border-radius: 3px;
+   padding: 5px;
+   margin-bottom: 20px;
+}
+
+.hotel-container input {
+   border: 1px solid #9c9c9c;
+   border-radius: 3px;
+   padding: 5px;
+   text-align: center;
+   margin-bottom: 20px;
+   width: 50px;
+}
+
+.hotel-container button {
+   background-color: rgb(41, 185, 101);
+   border-radius: 5px;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;   
+}
+

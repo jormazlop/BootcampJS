@@ -39,10 +39,14 @@ let getHotelPrice = () => {
       document.getElementById("precio").innerHTML = "El precio final es de " + precioFinal + " €";
       document.getElementById("precio").style = "color: green;"
    } else {
-      document.getElementById("precio").innerHTML = "¡Valor invalido!";
+      document.getElementById("precio").innerHTML = "¡Valor de entrada invalido!";
       document.getElementById("precio").style = "color: red;"
    }
 
 }
 
-document.getElementById("calcular-reserva").addEventListener("click", function() {getHotelPrice()});
+document.getElementById("tipo").addEventListener("change", function() {getHotelPrice()});
+document.getElementById("spa").addEventListener("change", function() {getHotelPrice()});
+document.getElementById("ocupacion").addEventListener("change", function() {getHotelPrice()});
+document.getElementById("noches").addEventListener("change", function() {getHotelPrice()});
+document.getElementById("parking").addEventListener("change", function() {getHotelPrice()});

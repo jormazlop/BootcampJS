@@ -1,0 +1,47 @@
+.encrypt-container {
+   max-width: 300px;
+}
+
+.encrypt-container h1 {
+   text-align: center;
+}
+
+.encrypt-container textarea {
+   width: 100%;
+   height: 100px;
+}
+
+.encrypt-buttons {
+   text-align: center;
+   margin: 20px 0;
+}
+
+.random-container {
+   margin-top: 100px;
+   max-width: 300px;
+   text-align: center;
+}
+
+.random-container span {
+   display: block;
+   margin-bottom: 10px;
+}
+
+.random-container input {
+   width: 50px;
+}
+
+button {
+   padding: 10px;
+   border: none;
+   background-color: #19a553;
+   font-size: 18px;
+   color: white;
+   border-radius: 6px;
+   transition: .3s linear;
+}
+
+button:hover {
+   transform: rotateX(15deg);
+   box-shadow: 0 15px 15px #19a553;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Enigma</title>
+</head>
+<body>
+
+   <div class="encrypt-container">
+      <h1>Enigma</h1>
+      <textarea id="message" placeholder="Escribe aqui el mensaje a encriptar..."></textarea>
+      <div class="encrypt-buttons">
+         <button onclick="encryptMessage()">Encrypt</button>
+         <button onclick="desencryptMessage()">Decrypt</button>
+      </div>
+      <textarea id="message-encrypt" placeholder="Escribe aqui el mensaje a desencriptar..."></textarea>
+   </div>
+
+   <div class="random-container">
+      <h1>Generador Aleatorio</h1>
+         <span>Cantidad : <input id="cantidad" type="number"></span>
+         <span>Minimo : <input id="min" type="number"></span>
+         <span>Máximo : <input id="max" type="number"></span>
+      <button onclick="randomPick(10, 1,100)">Generar Random</button>
+   </div>
+
+   <script src="./js/encriptador.js"></script>
+   <script src="./js/generador.js"></script>
+</body>
+</html>

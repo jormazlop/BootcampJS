@@ -1,0 +1,31 @@
+
+.agenda-container {
+   text-align: center;
+   padding: 20px;
+   border: 1px solid rgb(202, 198, 198);
+   border-radius: 5px;
+   margin: 0 20% 20px;
+}
+
+.agenda-container button {
+   padding: 10px;
+   border: none;
+   background-color: #19a553;
+   font-size: 18px;
+   color: white;
+   border-radius: 6px;
+   transition: .3s linear;
+}
+
+.agenda-container button:hover {
+   transform: rotateX(15deg);
+   box-shadow: 0 15px 15px #19a553;
+}
+
+.calculadora-container {
+   text-align: center;
+   padding: 20px;
+   border: 1px solid rgb(202, 198, 198);
+   border-radius: 5px;
+   margin: 0 20%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Modulo 6-III</title>
+</head>
+<body>
+
+   <div class="agenda-container">
+      <h1>Agenda</h1>
+      <button onclick="mostrarAgenda()">Mostrar Disponibilidad</button>
+      <button onclick="generacionAleatoria()">Generación Aleatoria</button>
+      <button onclick="buscarHuecoDisponible()">Buscar Hueco Disponible</button>
+   </div>
+
+   <div class="calculadora-container">
+      <h1>Calculadora</h1>
+      Importe total: <input id="total" type="number">
+      Importe entregado: <input id="entregado" type="number">
+      <button onclick="billeteADevolver()">Calcular</button>
+   </div>
+   
+   <script src="./js/datos.js"></script>
+   <script src="./js/agenda.js"></script>
+   <script src="./js/calculadora.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.cuadrado-container {
+   width: 300px;
+   border: 1px solid rgb(179, 170, 170);
+   border-radius: 6px;
+   padding: 20px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.cuadrado-container h1 {
+   margin: 0 0 10px 0;
+}
+
+.cuadrado-container input {
+   width: 40px;
+   margin-bottom: 10px;
+}
+
+.button-green {
+   padding: 10px;
+   border: none;
+   background-color: #19a553;
+   font-size: 18px;
+   color: white;
+   border-radius: 6px;
+   transition: .3s linear;
+}
+
+.button-green:hover {
+   transform: rotateX(15deg);
+   box-shadow: 0 15px 15px #19a553;
+}
+
+.result {
+   width: 300px;
+   text-align: center;
+   margin-bottom: 10px;
+}

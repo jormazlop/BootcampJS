@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Dibujando con Bucles</title>
+</head>
+<body>
+   
+   <!-- Ejercicio Cuadrado -->
+   <div class="cuadrado-container">
+      <h1>Cuadrado</h1>
+      <div><span>Valor de n : </span><input id="n-value" type="number"></div>
+      <div><span>Caracter a repetir : </span><input id="char-value" type="text" maxlength="1"></div> 
+      <button id="cuadrado-button" class="button-green" onclick="calcularCuadrado()">Calcular</button> 
+   </div>
+   <div id="cuadrado-result" class="result"></div>
+
+   <!-- Ejercicio Cuadrado con Borde -->
+   <div class="cuadrado-container">
+      <h1>Cuadrado con Borde</h1>
+      <div><span>Valor de n : </span><input id="n-borde-value" type="number"></div>
+      <div><span>Caracter a repetir : </span><input id="char-borde-value" type="text" maxlength="1"></div> 
+      <button id="cuadrado-borde-button" class="button-green" onclick="calcularCuadradoBorde()">Calcular</button> 
+   </div>
+   <div id="cuadrado-borde-result" class="result"></div>
+
+   <!-- Ejercicio Diagonal 1 (Left-Right)-->
+   <div class="cuadrado-container">
+      <h1>Diagonal LR</h1>
+      <div><span>Valor de n : </span><input id="n-diagonal1-value" type="number"></div>
+      <div><span>Caracter superior : </span><input id="char-sup1-value" type="text" maxlength="1"></div>
+      <div><span>Caracter inferior : </span><input id="char-inf1-value" type="text" maxlength="1"></div> 
+      <button id="cuadrado-diagonal1-button" class="button-green" onclick="calcularDiagonal1()">Calcular</button> 
+   </div>
+   <div id="cuadrado-diagonal1-result" class="result"></div>
+
+   <!-- Ejercicio Diagonal 2 (Right-Left)-->
+   <div class="cuadrado-container">
+      <h1>Diagonal RL</h1>
+      <div><span>Valor de n : </span><input id="n-diagonal2-value" type="number"></div>
+      <div><span>Caracter superior : </span><input id="char-sup2-value" type="text" maxlength="1"></div>
+      <div><span>Caracter inferior : </span><input id="char-inf2-value" type="text" maxlength="1"></div> 
+      <button id="cuadrado-diagonal2-button" class="button-green" onclick="calcularDiagonal2()">Calcular</button> 
+   </div>
+   <div id="cuadrado-diagonal2-result" class="result"></div>
+
+   <!-- Ejercicio Medio Diamante -->
+   <div class="cuadrado-container">
+      <h1>Medio Diamante</h1>
+      <div><span>Valor de n : </span><input id="n-medio-value" type="number"></div>
+      <div><span>Caracter a repetir : </span><input id="char-medio-value" type="text" maxlength="1"></div> 
+      <button id="cuadrado-medio-button" class="button-green" onclick="calcularMedioDiamante()">Calcular</button> 
+   </div>
+   <div id="cuadrado-medio-result" class="result"></div>
+
+   <!-- Ejercicio Piramide -->
+   <div class="cuadrado-container">
+      <h1>Piramide</h1>
+      <div><span>Valor de n : </span><input id="n-piramide-value" type="number"></div>
+      <div><span>Caracter a repetir : </span><input id="char-piramide-value" type="text" maxlength="1"></div> 
+      <button id="cuadrado-piramide-button" class="button-green" onclick="calcularPiramide()">Calcular</button> 
+   </div>
+   <div id="cuadrado-piramide-result" class="result"></div>
+
+   <!-- Ejercicio Diamante -->
+   <div class="cuadrado-container">
+      <h1>Diamante</h1>
+      <div><span>Valor de n : </span><input id="n-diamante-value" type="number"></div>
+      <div><span>Caracter a repetir : </span><input id="char-diamante-value" type="text" maxlength="1"></div> 
+      <button id="cuadrado-diamante-button" class="button-green" onclick="calcularDiamante()">Calcular</button> 
+   </div>
+   <div id="cuadrado-diamante-result" class="result"></div>
+
+   <script src="./js/cuadrado.js"></script>
+   <script src="./js/cuadradoConBorde.js"></script>
+   <script src="./js/diagonal1.js"></script>
+   <script src="./js/diagonal2.js"></script>
+   <script src="./js/medioDiamante.js"></script>
+   <script src="./js/piramide.js"></script>
+   <script src="./js/diamante.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Modulo 7</title>
+</head>
+<body>
+
+   <div class="iban-container">
+      <h1>Validar un IBAN</h1>
+      <span>*Un IBAN es un código internacional de cuenta bancaria, reemplaza a los número antiguos de cuenta (ccc).</span>
+      <img src="./img/iban.png">
+      Introducir IBAN a validar : <input class="iban1" id="iban1" type="text" maxlength="24"> 
+      <button onclick="validaIBAN1()">Validar</button>
+      <span id="symbol1" class="symbol"></span>
+   </div>
+
+   <div class="iban-container">
+      <h1>Validar un IBAN 2</h1>
+      <span>*Un IBAN es un código internacional de cuenta bancaria, reemplaza a los número antiguos de cuenta (ccc).
+             <b>En esta validación se permiten espacios en ciertas areas.</b>
+      </span>
+      <img src="./img/iban.png">
+      Introducir IBAN a validar : <input class="iban2" id="iban2" type="text" maxlength="29"> 
+      <button onclick="validaIBAN2()">Validar</button>
+      <span id="symbol2" class="symbol"></span>
+   </div>
+
+   <div class="iban-container">
+      <h1>Validar un IBAN 3</h1>
+      <span>*Un IBAN es un código internacional de cuenta bancaria, reemplaza a los número antiguos de cuenta (ccc).
+             <b>En esta validación se extraen el código de páis y el dígito de control.</b>
+      </span>
+      <img src="./img/iban.png">
+      Introducir IBAN a validar : <input class="iban1" id="iban3" type="text" maxlength="24"> 
+      <button onclick="validaIBAN3()">Validar</button>
+      <span id="symbol3" class="symbol"></span>
+      <span id="iban-extract"></span>
+   </div>
+
+   <div class="coche-container">
+      <h1>Validar una matricula</h1>
+      <span>*validar una matrícula de coche moderna, esta compuesta por 4 digitos y tres letras.
+            (Resultado en console.log)
+      </span>
+      <button onclick="validaMatriculas()">Validar</button>
+   </div>
+
+   <div class="aspiradora-container">
+      <h1>Aspiradora de imagenes</h1>
+      <span>*Extraer de todos los tags img el contenido de src en ese contenido tenemos las URL a las imágenes.
+      </span>
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+      <button onclick="aspiraImagen()">Aspirar</button>
+   </div>
+
+   <div class="tarjeta-container">
+      <h1>Validar una tarjeta de credito</h1>
+      <span>*Apartado para que el usuario pueda introducir los datos de su tarjeta de crédito máster card
+      </span>
+      Introducir trjt a validar : <input class="tarjeta1" id="tarjeta1" type="text" maxlength="20"> 
+      <button onclick="validaTarjeta()">Validar</button>
+   </div>
+
+   <script src="./js/iban.js"></script>
+   <script src="./js/matricula.js"></script>
+   <script src="./js/aspiradora.js"></script>
+   <script src="./js/tarjeta.js"></script>
+</body>
+</html>

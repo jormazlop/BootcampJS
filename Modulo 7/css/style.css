@@ -1,0 +1,77 @@
+.iban-container {
+   text-align: center;
+   width: 550px;
+   border: 1px solid rgb(202, 197, 197);
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.iban-container img {
+   padding: 20px;
+   width: 500px;
+}
+
+.iban1 {
+   width: 250px;
+   font-size: 18px;
+}
+
+.iban2 {
+   width: 270px;
+   font-size: 18px;
+}
+
+.symbol {
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+.coche-container {
+   text-align: center;
+   width: 550px;
+   border: 1px solid rgb(202, 197, 197);
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.coche-container button {
+   display: block;
+   margin: 3% 50%;
+}
+
+.aspiradora-container {
+   text-align: center;
+   width: 550px;
+   border: 1px solid rgb(202, 197, 197);
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.aspiradora-container img {
+   width: 20%;
+   height: 20%;
+   display: block;
+   margin: 0 40%;
+}
+
+.tarjeta-container {
+   text-align: center;
+   width: 550px;
+   border: 1px solid rgb(202, 197, 197);
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.tarjeta-container span {
+   display: block;
+   margin-bottom: 10px;
+}
+
+.tarjeta1 {
+   width: 250px;
+   font-size: 18px;
+}

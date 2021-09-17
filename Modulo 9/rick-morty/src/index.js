@@ -4,8 +4,6 @@ import * as API from "./data-business.js";
 
 let initializeHTML = characters => {
 
-   console.log(characters);
-
    const root = document.getElementById("root");
 
    root.innerHTML = "";

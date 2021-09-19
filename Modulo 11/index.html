@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles.css">
+   <title>Document</title>
+</head>
+<body>
+
+   <div class="reserva-container">
+      <h1>Reserva</h1>
+      <span>Por favor, introduzca aqui los detalles de su reserva</span>
+      <div>
+         <span>Tipo de habitación</span>
+         <select name="tipo" id="tipo">
+            <option value="standard">Habitacion standar</option>
+            <option value="doble">Habitacion doble</option>
+            <option value="triple">Habitacion triple</option>
+            <option value="suite">Suite</option>
+         </select>
+      </div>
+      <div>
+         Nº de personas <input id="persons" type="number">
+      </div>
+      <div>
+         Nº de noches <input id="nights" type="number">
+      </div>
+      <div>
+         Desayuno ? <input id="desayuno" type="checkbox">
+      </div>
+      <div>
+         Operador turístico ? <input id="operador" type="checkbox">
+      </div>
+
+      <button id="calcula-precio" class="calcula-button">Calcular</button>
+
+      <div id="resultados"></div>
+
+   </div>
+
+   <script type="module" src="./index.js"></script>
+</body>
+</html>

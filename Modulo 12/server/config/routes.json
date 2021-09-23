@@ -1,0 +1,6 @@
+{
+  "/api/*": "/$1",
+  "/account": "/account-list",
+  "/account/:id": "/account-list/:id",
+  "/movements": "/movements"
+}

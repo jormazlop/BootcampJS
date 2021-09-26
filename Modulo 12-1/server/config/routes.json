@@ -1,0 +1,11 @@
+{
+  "/api/*": "/$1",
+  "/sale-types": "/saleTypes",
+  "/equipments": "/equipments",
+  "/provinces": "/provinces",
+  "/rooms": "/rooms",
+  "/bathrooms": "/bathrooms",
+  "/prices": "/prices",
+  "/properties": "/properties",
+  "/questions": "/questions"
+}
